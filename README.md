@@ -24,7 +24,8 @@ For example, if you need to use the adl-parser, add into your _pom.xml_:
 
 ### Installation
 
-To build the whole project, first clone it, and once inside the project's folder (by default _java-libs_), run:
+To build the whole project in philips enviroment, first configure your maven proxy in the file C:\Users\<your user>\.m2\settings.xml. If the file don't exist it's necessary create it.
+follow this link https://maven.apache.org/guides/mini/guide-proxies.html
 ```bash
 mvn clean install
 ```
